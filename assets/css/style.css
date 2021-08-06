@@ -73,6 +73,7 @@ body{
 .post-section-posts{
     border: 1px solid #ddd;
     margin-top: 25px;
+    background: #fff;
 }
 .post-section-posts-header{
     display: flex;
@@ -103,7 +104,7 @@ body{
     padding: 0 8px;
 }
 .post-section-posts-profil{
-    padding: 8px 15px;
+    padding: 15px 0px;
     font-size: 15px;
     font-weight: 300;
 }
@@ -136,18 +137,41 @@ body{
     height: 50px;
 }
 .post-section-post-wright-comment .fa{
-    margin: 0 10px;
+    margin: 0 15px;
     color: #262626;
 }
-.post-section-post-wright-comment input{
+/* .post-section-post-wright-comment input{
     border: none;
     padding: 10px 110px;
    ;
-}
+ } */
+
 .post-section-post-wright-comment button{
     border: none;
-    padding: 10px;
+    padding: 10px 5px;
     color: blue;
     font-weight: bold;
     cursor: pointer;
+    background-color: #Fff;
+}
+.commeant-ber{
+    background: 0 0;
+    border: 0;
+    color: #262626;
+    color: rgba(var(--i1d,38,38,38),1);
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    font-size: inherit;
+    height: 18px;
+    max-height: 80px;
+    outline: 0;
+    padding: 0;
+    resize: none;
+    width: 0;
 }
