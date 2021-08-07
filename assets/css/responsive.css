@@ -1,0 +1,28 @@
+@media only screen and (max-width:600px) {
+    body{
+        background: red;
+    }
+    .sidebar-section{
+        width: 100%;
+        display: none;
+    }
+    .post-section{
+        width: 100%;
+    }
+    .header-section-icons{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-top: 1px solid #ddd;
+    }
+    .header-section{
+        padding: 0 10px;
+       
+    }
+}
